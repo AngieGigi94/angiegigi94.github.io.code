@@ -6,8 +6,7 @@
   "scripts": {
     "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "add": "git subtree add --prefix=public origin master --squash",
-    "publish": "git subtree push --prefix public origin master"
+    "publish": "git subtree push --prefix public blog master"
   },
   "repository": {
     "type": "git",
